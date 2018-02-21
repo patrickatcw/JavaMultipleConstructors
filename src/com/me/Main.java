@@ -23,9 +23,13 @@ public class Main {
         VipCustomer customer1 = new VipCustomer(); //with no parameters
         System.out.println(customer1.getName());
 
-
-        VipCustomer customer2 = new VipCustomer("Bob", 25000.00);  //cust2 w/ 2 parameters
+        VipCustomer customer2 = new VipCustomer("Bob", 25000.00);  //cust2 w/2 parameters
         System.out.println(customer2.getName());
+
+        //cust3 with 3 parameters
+        VipCustomer customer3 = new VipCustomer("Tim", 100.00, "tim@email.com");
+        System.out.println(customer3.getName());
+        System.out.println(customer3.getEmailAddress());
 
     }
 }
@@ -33,3 +37,5 @@ public class Main {
 //printout
 //Default Name
 //Bob
+//Tim
+//tim@email.com
