@@ -1,4 +1,4 @@
 package com.me;
 
-public class VipCustomer {
+public class VipCustomer {          //step 1
 }
