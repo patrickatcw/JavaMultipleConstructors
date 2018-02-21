@@ -21,6 +21,13 @@ public class VipCustomer {          //step 1 new class created through com.me
     private double creditLimit;
     private String emailAddress;
 
+    public VipCustomer() {
+
+        //step 3 created 3rd constructor with all fields, empty parameter
+        this("Default Name", 50000.00, "default@email.com");
+
+    }
+
     // step 3 2nd constructor created through menu with 2 value parameters
     // and add a default value for the 3rd
     public VipCustomer(String name, double creditLimit) {
