@@ -21,6 +21,12 @@ public class VipCustomer {          //step 1 new class created through com.me
     private double creditLimit;
     private String emailAddress;
 
+    // step 3 2nd constructor created through menu with 2 value parameters
+    public VipCustomer(String name, double creditLimit) {
+        this.name = name;
+        this.creditLimit = creditLimit;
+    }
+
     //step 3 first constructor created through menu with 3 parameters w/default values
     public VipCustomer(String name, double creditLimit, String emailAddress) {  //
         this.name = name;
