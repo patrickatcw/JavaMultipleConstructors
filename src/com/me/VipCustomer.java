@@ -42,4 +42,17 @@ public class VipCustomer {          //step 1 new class created through com.me
         this.creditLimit = creditLimit;
         this.emailAddress = emailAddress;
     }
+
+    //step 4 create getters through menu
+    public String getName() {
+        return name;
+    }
+
+    public double getCreditLimit() {
+        return creditLimit;
+    }
+
+    public String getEmailAddress() {
+        return emailAddress;
+    }
 }
