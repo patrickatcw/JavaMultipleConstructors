@@ -23,8 +23,13 @@ public class Main {
         VipCustomer customer1 = new VipCustomer(); //with no parameters
         System.out.println(customer1.getName());
 
+
+        VipCustomer customer2 = new VipCustomer("Bob", 25000.00);  //cust2 w/ 2 parameters
+        System.out.println(customer2.getName());
+
     }
 }
 
 //printout
 //Default Name
+//Bob
