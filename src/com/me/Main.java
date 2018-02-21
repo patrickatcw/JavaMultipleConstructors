@@ -19,6 +19,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-    }
+        //step 5 creating instances with constructors and println
+        VipCustomer customer1 = new VipCustomer(); //with no parameters
+        System.out.println(customer1.getName());
 
+    }
 }
+
+//printout
+//Default Name
